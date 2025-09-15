@@ -1,9 +1,10 @@
+// next.config.mjs
 const nextConfig = {
   output: 'export',
-  basePath: '/<your-repo-name>',
+  basePath: '/Deployment-test',
   images: {
     unoptimized: true,
   },
 };
- 
-module.exports = nextConfig;
+
+export default nextConfig;
